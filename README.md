@@ -7,7 +7,5 @@ My first program using MYSQL database. Allows user to create tables (using a tem
 Using the program:
 When you run the program you will be prompted by a menu system. From this menu system you can then create a new table, add data to an existing table, view an existing table, clear all data from a table, or delete the table, along with an exit option that breaks out of the program. If you choose to create a new table, it will use a default format containing several columns of things like "calories, carbohydrates, protein" etc. When you go to add data to a table, you will be prompted several times individually to input the name of the food, and input several integers for the nutritional values of the food. All of the other menu options are pretty self explanatory. View table prints out the table from MYSQL database, clear table clears all data from table after a confirmation message and delete table deletes the table from database after a confirmation message.
 
-Future updates:
-In its current state this program is not scalable. It creates a new table for every user, which isn't going to work for many users. This is the biggest challenge that I plan to tackle in the next iteration of this program. I would also like to report trends back to the user over a period of time and let them know if they're consuming too much or too little of a particular category. 
 
 
